@@ -221,3 +221,80 @@ background: rgba(167, 33, 98, 0.15);
     height: 296px;
     padding: 10px;
 }
+
+/* Fifth section start */
+
+.fifth-section{
+    background-image: url("../images/latest-deals-bg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    width: 1090px;
+    height: 320px;
+    margin: 80px;
+    margin-left: 225px;
+    margin-bottom: 50px;
+}
+.fifth-section-text{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.fifth-section-text h3{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    display: block;
+    margin-top: 10px;
+}
+.fifth-section-text p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.fifth-section-text input[type="text"]{
+    width: 400px;
+    height: 44px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.fifth-section-text input[type="submit"]{
+    width: 90px;
+    height: 44px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: white;
+}
+/* Footer section */
+
+ .footer-section{
+    background: rgb(17, 16, 16);;
+    color: white;
+    height: 300px;
+    display: flex;
+} 
+.footer{
+    margin-left: 300px;
+    margin-top: 50px;
+
+    
+}
+.footer h2{
+    margin: 20px 0px 30px 350px;
+}
+.footer span{
+    color: rgb(229, 84, 115);
+}
+.footer p{
+    margin: 20px 0px 30px 225px;
+    width: 450px;
+}
+.small{
+    margin: 20px 0px 30px 280px;
+}
