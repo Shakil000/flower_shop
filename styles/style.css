@@ -6,12 +6,11 @@
     background: rgba(229, 84, 115, 0.1);
     display: flex;
     width: 100%;
-    height: 100%;
 }
 .header-text{
     width: 50%;
     display: block;
-    margin: 150px 50px 350px 220px;
+    margin: 50px 50px 350px 220px;
 }
 .header-text h1{
     color: rgb(39, 39, 39);
@@ -47,6 +46,7 @@
 
 .second-section{
     width: 1536px;
+    width: 100%;
     margin: 120px 0px 0px 0px;
 }
 .second-section h3{
@@ -94,4 +94,130 @@ background: rgba(167, 33, 98, 0.15);
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
+}
+
+/* Body second section */
+
+.body-second-section{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1120px;
+    margin: 30px auto;
+    height: 220px;
+
+}
+.third-section-image{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second-section-text{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    margin-top: -40px;
+
+}
+.body-section-first-image{
+    margin: 70px 50px 50px 100px;
+}
+.body-section-second-image{
+    margin: 70px 50px 50px 160px;
+}
+.body-section-third-image{
+    margin: 70px 70px 50px 80px;
+}
+
+/* Third section styles */
+
+.third-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 520px;
+    margin-left: -150px;
+}
+.body-third-section-text{
+    width: 50%;
+    display: block;
+    margin: 350px 50px 350px 220px;
+}
+.body-third-section-text h2{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.body-third-section-text span{
+    color: rgb(229, 84, 115);
+}
+.body-third-section-text p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 150px;
+    margin-bottom: 20px;
+}
+.body-third-section-text button{
+    display: flex;
+    margin: 0 auto;
+}
+.third-section-image img{
+    margin: 0 250px 0 0;
+}
+
+/* Fourth section style */
+.fourth-section{
+    width: 1120px;
+}
+.fourth-section-text{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 50px 420px;
+}
+.fourth-section-text h3{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.fourth-section-text p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.fourth-section-images{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 420px;
+}
+.fourth-section-first-image{
+    width: 330px;
+    height: 296px;
+    padding: 10px;
+}
+.fourth-section-second-image{
+    width: 330px;
+    height: 296px;
+    padding: 10px;
+}
+.fourth-section-third-image{
+    width: 330px;
+    height: 296px;
+    padding: 10px;
+}
+.fourth-section-fourth-image{
+    width: 330px;
+    height: 296px;
+    padding: 10px;
 }
